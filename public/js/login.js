@@ -12,7 +12,9 @@ function onSignIn(googleUser) {
     var id_token = googleUser.getAuthResponse().id_token;
     console.log("ID Token: " + id_token);
     console.log("request firebase")
-    requestFirebase(id_token);
+
+
+    //requestFirebase(id_token);
 
 }
 
